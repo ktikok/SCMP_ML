@@ -132,5 +132,6 @@ Bsize: 100 learningRate: 0.005 minimum_RMSE: 118.49 epoch: 100 test_loss: 315.69
 
 Bsize: 100 learningRate: 0.005 minimum_RMSE: 39.03 epoch: 1000 test_loss: 90.99375407823331 train_loss: 8.282601415379995
 
-    
+epoch:  3350 test_loss:   889 train_loss:    10
+
     
