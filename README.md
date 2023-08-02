@@ -102,14 +102,14 @@ model = nn.Sequential(
     Bsize: 500 learningRate: 0.03 RMSE: 111.31 1000 loss: 515.4253401318177
     
 ---------------------------------------------
-        model = nn.Sequential(
-            nn.Linear(2, 5),
-            nn.LeakyReLU(),
-            nn.Linear(5, 3),
-            nn.LeakyReLU(),
-            nn.Linear(3, 1)
-        )
-        
+model = nn.Sequential(
+    nn.Linear(2, 5),
+    nn.LeakyReLU(),
+    nn.Linear(5, 3),
+    nn.LeakyReLU(),
+    nn.Linear(3, 1)
+)
+
     for Bsize in [10, 50, 100, 500, 1000, 5000]:
     for learningRate in [ 1e-2, 5e-2, 1e-3, 5e-3, 1e-4, 5e-4, 1e-5, 5e-5, 1e-6, 5e-6, 1e-7, 5e-7,   ]:
     
@@ -134,4 +134,12 @@ Bsize: 100 learningRate: 0.005 minimum_RMSE: 39.03 epoch: 1000 test_loss: 90.993
 
 epoch:  3350 test_loss:   889 train_loss:    10
 
-    
+n_of_data: 1000 Bsize: 10 learningRate: 0.001 minimum_RMSE: 906.87 epoch:  1000 test_loss:   918 train_loss:    38
+n_of_data: 1000 Bsize: 10 learningRate: 0.005 minimum_RMSE: 809.15 epoch:  1000 test_loss:   946 train_loss:    30
+n_of_data: 1000 Bsize: 10 learningRate: 0.0005 minimum_RMSE: 918.40 epoch:  1000 test_loss:   932 train_loss:    36
+n_of_data: 1000 Bsize: 50 learningRate: 0.01 minimum_RMSE: 886.77 epoch:  1000 test_loss:   900 train_loss:   460
+n_of_data: 1000 Bsize: 50 learningRate: 0.05 minimum_RMSE: 967.82 epoch:  1000 test_loss:   968 train_loss:   744
+n_of_data: 1000 Bsize: 50 learningRate: 0.005 minimum_RMSE: 874.51 epoch:  1000 test_loss:   888 train_loss:   458
+n_of_data: 1000 Bsize: 100 learningRate: 0.01 minimum_RMSE: 883.83 epoch:  1000 test_loss:   897 train_loss:   336
+n_of_data: 1000 Bsize: 100 learningRate: 0.001 minimum_RMSE: 974.78 epoch:  1000 test_loss:   974 train_loss:   338
+n_of_data: 1000 Bsize: 100 learningRate: 0.005 minimum_RMSE: 875.82 epoch:  1000 test_loss:   886 train_loss:   336
