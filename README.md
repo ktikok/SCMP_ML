@@ -143,3 +143,4 @@ n_of_data: 1000 Bsize: 50 learningRate: 0.005 minimum_RMSE: 874.51 epoch:  1000 
 n_of_data: 1000 Bsize: 100 learningRate: 0.01 minimum_RMSE: 883.83 epoch:  1000 test_loss:   897 train_loss:   336
 n_of_data: 1000 Bsize: 100 learningRate: 0.001 minimum_RMSE: 974.78 epoch:  1000 test_loss:   974 train_loss:   338
 n_of_data: 1000 Bsize: 100 learningRate: 0.005 minimum_RMSE: 875.82 epoch:  1000 test_loss:   886 train_loss:   336
+n_of_data: 1000 Bsize: 500 learningRate: 1e-07 minimum_RMSE: 994.67 epoch:  1000 test_loss:   994 train_loss:   731
