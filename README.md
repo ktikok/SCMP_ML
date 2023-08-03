@@ -144,3 +144,39 @@ n_of_data: 1000 Bsize: 100 learningRate: 0.01 minimum_RMSE: 883.83 epoch:  1000 
 n_of_data: 1000 Bsize: 100 learningRate: 0.001 minimum_RMSE: 974.78 epoch:  1000 test_loss:   974 train_loss:   338
 n_of_data: 1000 Bsize: 100 learningRate: 0.005 minimum_RMSE: 875.82 epoch:  1000 test_loss:   886 train_loss:   336
 n_of_data: 1000 Bsize: 500 learningRate: 1e-07 minimum_RMSE: 994.67 epoch:  1000 test_loss:   994 train_loss:   731
+
+NEW approach
+-------------------------------
+optimizer: Adadelta , n_of_data: 1000 , Bsize: 10 , learningRate: 0.1 , minimum_RMSE: 905.62 , epoch:  1000 , test_loss:   905 , train_loss:  
+optimizer: Adadelta , n_of_data: 1000 , Bsize: 10 , learningRate: 0.1 , minimum_RMSE: 905.62 , epoch:  1000 , test_loss:   905 , train_loss:  
+optimizer: Adadelta , n_of_data: 1000 , Bsize: 10 , learningRate: 0.05 , minimum_RMSE: 919.39 , epoch:  1000 , test_loss:   919 , train_loss: 
+optimizer: Adagrad , n_of_data: 1000 , Bsize: 10 , learningRate: 0.1 , minimum_RMSE: 982.28 , epoch:  1000 , test_loss:   985 , train_loss:   
+optimizer: AdamW , n_of_data: 1000 , Bsize: 10 , learningRate: 0.001 , minimum_RMSE: 862.54 , epoch:  1000 , test_loss:   943 , train_loss:   
+optimizer: AdamW , n_of_data: 1000 , Bsize: 10 , learningRate: 0.005 , minimum_RMSE: 800.60 , epoch:  1000 , test_loss:   915 , train_loss:   
+optimizer: AdamW , n_of_data: 1000 , Bsize: 10 , learningRate: 0.0005 , minimum_RMSE: 906.31 , epoch:  1000 , test_loss:   911 , train_loss:  
+optimizer: AdamW , n_of_data: 1000 , Bsize: 100 , learningRate: 0.001 , minimum_RMSE: 979.86 , epoch:  1000 , test_loss:   980 , train_loss:  
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 0.001 , minimum_RMSE: 855.71 , epoch:  1000 , test_loss:   978 , train_loss:    40 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 0.005 , minimum_RMSE: 826.29 , epoch:  1000 , test_loss:   958 , train_loss:    40 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 0.0001 , minimum_RMSE: 825.55 , epoch:  1000 , test_loss:   998 , train_loss:    44 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 0.0005 , minimum_RMSE: 823.91 , epoch:  1000 , test_loss:   989 , train_loss:    44 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-05 , minimum_RMSE: 823.85 , epoch:  1000 , test_loss:   846 , train_loss:    29 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 5e-05 , minimum_RMSE: 823.67 , epoch:  1000 , test_loss:   985 , train_loss:    43 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-06 , minimum_RMSE: 823.64 , epoch:  1000 , test_loss:   823 , train_loss:    26 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 5e-06 , minimum_RMSE: 823.62 , epoch:  1000 , test_loss:   830 , train_loss:    28 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-07 , minimum_RMSE: 823.62 , epoch:  1000 , test_loss:   823 , train_loss:    26 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 10 , learningRate: 5e-07 , minimum_RMSE: 823.58 , epoch:  1000 , test_loss:   823 , train_loss:    26 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 0.05 , minimum_RMSE: 729.09 , epoch:  1000 , test_loss:   900 , train_loss:   481 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 0.001 , minimum_RMSE: 724.83 , epoch:  1000 , test_loss:   912 , train_loss:   463 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 0.005 , minimum_RMSE: 717.31 , epoch:  1000 , test_loss:   935 , train_loss:   457 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 0.0001 , minimum_RMSE: 717.26 , epoch:  1000 , test_loss:   883 , train_loss:   477 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 0.0005 , minimum_RMSE: 717.12 , epoch:  1000 , test_loss:   907 , train_loss:   460 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 1e-05 , minimum_RMSE: 717.12 , epoch:  1000 , test_loss:   724 , train_loss:   760 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 5e-05 , minimum_RMSE: 717.10 , epoch:  1000 , test_loss:   850 , train_loss:   519 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 1e-06 , minimum_RMSE: 717.10 , epoch:  1000 , test_loss:   717 , train_loss:   829 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 5e-06 , minimum_RMSE: 717.09 , epoch:  1000 , test_loss:   719 , train_loss:   798 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 1e-07 , minimum_RMSE: 717.09 , epoch:  1000 , test_loss:   717 , train_loss:   837 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 50 , learningRate: 5e-07 , minimum_RMSE: 717.09 , epoch:  1000 , test_loss:   717 , train_loss:   833 , layer_dim_list: [2, 16, 8, 1]
+optimizer: Adamax , n_of_data: 1000 , Bsize: 100 , learningRate: 0.1 , minimum_RMSE: 863.93 , epoch:  1000 , test_loss:   879 , train_loss:   345 , layer_dim_list: [2, 16, 8, 1]
+optimizer: RMSprop , n_of_data: 1000 , Bsize: 10 , learningRate: 5e-05 , minimum_RMSE: 945.54 , epoch:  1000 , test_loss:   977 , train_loss:    28 , layer_dim_list: [2, 16, 8, 1]
+optimizer: RMSprop , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-06 , minimum_RMSE: 945.30 , epoch:  1000 , test_loss:   952 , train_loss:    28 , layer_dim_list: [2, 16, 8, 1]
+optimizer: RMSprop , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-07 , minimum_RMSE: 944.07 , epoch:  1000 , test_loss:   945 , train_loss:    27 , layer_dim_list: [2, 16, 8, 1]
