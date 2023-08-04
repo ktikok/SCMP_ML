@@ -180,3 +180,42 @@ optimizer: Adamax , n_of_data: 1000 , Bsize: 100 , learningRate: 0.1 , minimum_R
 optimizer: RMSprop , n_of_data: 1000 , Bsize: 10 , learningRate: 5e-05 , minimum_RMSE: 945.54 , epoch:  1000 , test_loss:   977 , train_loss:    28 , layer_dim_list: [2, 16, 8, 1]
 optimizer: RMSprop , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-06 , minimum_RMSE: 945.30 , epoch:  1000 , test_loss:   952 , train_loss:    28 , layer_dim_list: [2, 16, 8, 1]
 optimizer: RMSprop , n_of_data: 1000 , Bsize: 10 , learningRate: 1e-07 , minimum_RMSE: 944.07 , epoch:  1000 , test_loss:   945 , train_loss:    27 , layer_dim_list: [2, 16, 8, 1]
+
+#----------------------#----------------------#----------------------#----------------------
+from here it's about Softplus.
+The reason I changed LeakyRelu to Softplus is that there was nan when I used LeakyRelu. 
+My thought of the reason was the  zero value of the activation func.
+So, I tested some conditions.
+
+the bellow conditions showed some interesting test results.
+
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 0.005 , minimum_RMSE: 365.54 , epoch: 12951 , test_loss: 1180.154175 , train_loss: 1127.486450 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -210.889 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 0.001 , minimum_RMSE: 22.67 , epoch: 13813 , test_loss: 15479.684570 , train_loss: 1186.494629 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -205.868 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.0005 , minimum_RMSE: 27.47 , epoch:  3660 , test_loss: 595.456665 , train_loss: 14.215258 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -160.696 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 50 , learningRate: 0.01 , minimum_RMSE: 870.28 , epoch:  1807 , test_loss: 1521.794312 , train_loss: 257.517761 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.001 m , passed_time: -75.356 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 10 , learningRate: 0.005 , minimum_RMSE: 77.75 , epoch:   386 , test_loss: 3821.791748 , train_loss: 5.220962 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.010 m , passed_time: -30.134 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 10 , learningRate: 0.01 , minimum_RMSE: 1227.02 , epoch:   389 , test_loss: 1528.360840 , train_loss: 60.050892 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.003 m , passed_time: -15.060 s
+
+the bellow conditions showed some interesting test loss
+
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 10 , learningRate: 5e-05 , minimum_RMSE: 170.68 , epoch:   396 , test_loss: 449.273926 , train_loss: 41.650246 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.003 m , passed_time: -50.246 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.005 , minimum_RMSE: 650.98 , epoch:  3611 , test_loss: 856.958984 , train_loss: 449.057434 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -150.661 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.0005 , minimum_RMSE: 27.47 , epoch:  3660 , test_loss: 595.456665 , train_loss: 14.215258 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -160.696 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 5e-05 , minimum_RMSE: 252.92 , epoch:  3668 , test_loss: 256.572418 , train_loss: 184.996445 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -170.736 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 1e-06 , minimum_RMSE: 373.60 , epoch:  3655 , test_loss: 387.394196 , train_loss: 300.521637 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -175.753 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 0.01 , minimum_RMSE: 776.44 , epoch: 13057 , test_loss: 975.959290 , train_loss: 1278.882080 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -195.836 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 5e-05 , minimum_RMSE: 233.48 , epoch: 14226 , test_loss: 755.675903 , train_loss: 190.891434 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -230.968 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 1e-06 , minimum_RMSE: 366.90 , epoch: 13808 , test_loss: 373.595154 , train_loss: 409.985413 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -235.995 s
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 5e-06 , minimum_RMSE: 423.42 , epoch: 11332 , test_loss: nan , train_loss: nan , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 4.060 m , passed_time: -240.077 s
+
+after the test, I found that nan can be occured even an activation function has no zero value. 
+
+I chose the bellow conditions for further examination.
+
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.0005 , minimum_RMSE: 27.47 , epoch:  3660 , test_loss: 595.456665 , train_loss: 14.215258 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -160.696 s
+
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 5e-05 , minimum_RMSE: 252.92 , epoch:  3668 , test_loss: 256.572418 , train_loss: 184.996445 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -170.736 s
+
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 10 , learningRate: 0.005 , minimum_RMSE: 77.75 , epoch:   386 , test_loss: 3821.791748 , train_loss: 5.220962 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.010 m , passed_time: -30.134 s
+
+activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 0.001 , minimum_RMSE: 22.67 , epoch: 13813 , test_loss: 15479.684570 , train_loss: 1186.494629 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -205.868 s
