@@ -1,3 +1,24 @@
 hi
 , layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.0005
 , epoch:  7793 , passed_time: 132.733 m , minimum_RMSE: 18.70 , test_loss: 18.699621 , train_loss: 14.439497 , passed_time_accum: -132.733 m
+, layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.0005
+, epoch:  7793 , passed_time: 157.781 m , minimum_RMSE: 18.70 , test_loss: 18.699621 , train_loss: 14.439497 , passed_time_accum: -157.781 m
+2023-08-04 05:27:47.682433 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt , layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 100 , learningRate: 5e-05
+, epoch: 24028 , passed_time: 53.389 m , minimum_RMSE: 88.98 , test_loss: 4034.675049 , train_loss: 3727.391357 , passed_time_accum: -53.389 m
+2023-08-04 06:31:39.640398 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt , layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 16 , learningRate: 1e-06
+, epoch:  2327 , passed_time: 30.578 m , minimum_RMSE: 400.53 , test_loss: 8376.693359 , train_loss: 156.146362 , passed_time_accum: -30.578 m
+/content/drive/MyDrive/0_318lab/SCMP_ML/model1691133353.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
+, epoch:    68 , passed_time: 1.003 m , minimum_RMSE: 3984.23 , test_loss: 3984.226074 , train_loss: 24.902515 , passed_time_accum: -1.003 m
+/content/drive/MyDrive/0_318lab/SCMP_ML/model1691134006.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
+, epoch:     5 , passed_time: 0.102 m , minimum_RMSE: 2343.55 , test_loss: 2343.545898 , train_loss: 61.419884 , passed_time_accum: -0.102 m
+2023-08-04 07:36:00.735567 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
+, epoch:     8 , passed_time: 0.110 m , minimum_RMSE: 13111.99 , test_loss: 13111.994141 , train_loss: 22.686001 , passed_time_accum: -0.110 m
+2023-08-04 07:37:44.466549 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
+, epoch:     7 , passed_time: 0.104 m , minimum_RMSE: 2206.64 , test_loss: 2206.641357 , train_loss: 75.458115 , passed_time_accum: -0.104 m
+2023-08-04 07:43:59.568858 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
+, epoch:     7 , passed_time: 0.101 m , minimum_RMSE: 4059.96 , test_loss: 4059.964600 , train_loss: 23.095135 , passed_time_accum: -0.101 m

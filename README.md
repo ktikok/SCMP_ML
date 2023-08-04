@@ -212,10 +212,10 @@ after the test, I found that nan can be occured even an activation function has 
 
 I chose the bellow conditions for further examination.
 
-activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 0.0005 , minimum_RMSE: 27.47 , epoch:  3660 , test_loss: 595.456665 , train_loss: 14.215258 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -160.696 s
+activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 100 , learningRate: 0.0005 , minimum_RMSE: 27.47 , epoch:  3660 , test_loss: 595.456665 , train_loss: 14.215258 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -160.696 s
 
-activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 100 , learningRate: 5e-05 , minimum_RMSE: 252.92 , epoch:  3668 , test_loss: 256.572418 , train_loss: 184.996445 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -170.736 s
+activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 100 , learningRate: 5e-05 , minimum_RMSE: 252.92 , epoch:  3668 , test_loss: 256.572418 , train_loss: 184.996445 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -170.736 s
 
-activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 10 , learningRate: 0.005 , minimum_RMSE: 77.75 , epoch:   386 , test_loss: 3821.791748 , train_loss: 5.220962 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.010 m , passed_time: -30.134 s
+activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 10 , learningRate: 0.005 , minimum_RMSE: 77.75 , epoch:   386 , test_loss: 3821.791748 , train_loss: 5.220962 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.010 m , passed_time: -30.134 s
 
-activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 500 , learningRate: 0.001 , minimum_RMSE: 22.67 , epoch: 13813 , test_loss: 15479.684570 , train_loss: 1186.494629 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -205.868 s
+activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 500 , learningRate: 0.001 , minimum_RMSE: 22.67 , epoch: 13813 , test_loss: 15479.684570 , train_loss: 1186.494629 , layer_dim_list: [2, 20, 20, 20, 20, 1] , passed_time: 5.000 m , passed_time: -205.868 s
