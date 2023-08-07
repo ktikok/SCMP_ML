@@ -22,3 +22,51 @@ hi
 2023-08-04 07:43:59.568858 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
 , layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
 , epoch:     7 , passed_time: 0.101 m , minimum_RMSE: 4059.96 , test_loss: 4059.964600 , train_loss: 23.095135 , passed_time_accum: -0.101 m
+2023-08-04 08:29:14.252625 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 32, 64, 32, 16, 1] activateion: Softplus , optimizer: Adam , n_of_data: 100 , Bsize: 16 , learningRate: 1e-06
+, epoch:  3213 , passed_time: 41.666 m , minimum_RMSE: 406.04 , test_loss: nan , train_loss: nan , passed_time_accum: -41.666 m
+2023-08-04 09:21:17.040030 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 10 , learningRate: 0.005
+, epoch:     5 , passed_time: 0.142 m , minimum_RMSE: 3627.03 , test_loss: 35142.015625 , train_loss: 24.976151 , passed_time_accum: -0.142 m
+2023-08-04 11:58:56.347051 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 10 , learningRate: 0.005
+, epoch:  6602 , passed_time: 156.005 m , minimum_RMSE: 394.64 , test_loss: 1545.913940 , train_loss: 2646.354980 , passed_time_accum: -156.005 m
+2023-08-04 12:01:05.766279 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 1000 , learningRate: 0.05
+, epoch:   121 , passed_time: 0.186 m , minimum_RMSE: 983.20 , test_loss: 2549.840088 , train_loss: 761.521362 , passed_time_accum: -0.186 m
+2023-08-04 12:19:01.711472 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 500 , learningRate: 0.001
+, epoch: 21801 , passed_time: 16.435 m , minimum_RMSE: 94.36 , test_loss: nan , train_loss: nan , passed_time_accum: -16.435 m
+2023-08-04 12:37:50.066776 data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 20, 20, 20, 20, 1] activateion: Softplus , optimizer: Adam , n_of_data: 10000 , Bsize: 100 , learningRate: 0.0005
+, epoch:  7004 , passed_time: 18.055 m , minimum_RMSE: 20.53 , test_loss: 59.422955 , train_loss: 50.458176 , passed_time_accum: -18.055 m
+1691157839 model1691157839.pt 2023-08-04 23:03:59.530303 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.005
+, epoch:   801 , passed_time: 0.221 m , minimum_RMSE: 61.32 , test_loss: 27497.066406 , train_loss: 94.060814 , passed_time_accum: -0.221 m
+1691158240 model1691158240.pt 2023-08-04 23:10:40.220154 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.005
+, epoch:   694 , passed_time: 0.182 m , minimum_RMSE: 122.69 , test_loss: 12191.731445 , train_loss: 4499.448242 , passed_time_accum: -0.182 m
+1691159788 model1691159788.pt 2023-08-04 23:36:28.447391 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.005
+, epoch: 100831 , passed_time: 24.000 m , minimum_RMSE: 61.15 , test_loss: 6767641.500000 , train_loss: 261065.531250 , passed_time_accum: -24.000 m
+2023-08-07 01:31:29.114322 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691371889.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.005
+, epoch:    19 , passed_time: 0.019 m , minimum_RMSE: 8.56 , test_loss: 8.561547 , train_loss: 22.641796 , passed_time_accum: 0.019 m model_save_time 1691371889
+2023-08-07 01:35:14.429913 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691372114.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 100 , Bsize: 1024 , learningRate: 0.005
+, epoch:    61 , passed_time: 0.058 m , minimum_RMSE: 0.89 , test_loss: 0.889178 , train_loss: 2.232300 , passed_time_accum: 0.058 m model_save_time 1691372114
+2023-08-07 01:39:27.313049 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691372367.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 100 , Bsize: 1024 , learningRate: 0.005
+, epoch:  1436 , passed_time: 1.413 m , minimum_RMSE: 36.04 , test_loss: 1204.465698 , train_loss: 947.749390 , passed_time_accum: 1.413 m model_save_time 1691372367
+2023-08-07 01:41:47.421192 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691372507.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 100 , Bsize: 1024 , learningRate: 0.005
+, epoch:  1071 , passed_time: 0.970 m , minimum_RMSE: 915.47 , test_loss: 1321.147583 , train_loss: 1128.747437 , passed_time_accum: 0.970 m model_save_time 1691372507
+2023-08-07 01:42:51.577256 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691372571.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 100 , Bsize: 1024 , learningRate: 0.005
+, epoch:   623 , passed_time: 0.532 m , minimum_RMSE: 0.10 , test_loss: 0.097981 , train_loss: 0.044291 , passed_time_accum: 0.533 m model_save_time 1691372571
+2023-08-07 02:38:58.817591 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691375938.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 100 , Bsize: 1024 , learningRate: 0.005
+, epoch: 50074 , passed_time: 50.287 m , minimum_RMSE: 0.01 , test_loss: 0.032035 , train_loss: 0.051426 , passed_time_accum: 50.287 m model_save_time 1691375938
+2023-08-07 02:58:16.549143 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691377096.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_1000000_Interval_(0.01, 1)_1691376656.pt
+, layer_dim_list: [2, 1000, 1000, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 1000000 , Bsize: 1024 , learningRate: 0.005
+, epoch:     0 , passed_time: 1.125 m , minimum_RMSE: inf , test_loss: 0.032035 , train_loss: 0.044667 , passed_time_accum: 1.126 m model_save_time 1691377096
