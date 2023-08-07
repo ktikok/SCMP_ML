@@ -70,3 +70,363 @@ hi
 2023-08-07 02:58:16.549143 /content/drive/MyDrive/0_318lab/SCMP_ML/model1691377096.pt data: /content/drive/MyDrive/0_318lab/SCMP_ML/data/KEdataX_N_1000000_Interval_(0.01, 1)_1691376656.pt
 , layer_dim_list: [2, 1000, 1000, 100, 10, 1] activateion: ReLU , optimizer: Adam , n_of_data: 1000000 , Bsize: 1024 , learningRate: 0.005
 , epoch:     0 , passed_time: 1.125 m , minimum_RMSE: inf , test_loss: 0.032035 , train_loss: 0.044667 , passed_time_accum: 1.126 m model_save_time 1691377096
+1691380177 model1691380177.pt 2023-08-07 12:49:37.309490 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.5
+, epoch:  3983 , passed_time: 1.000 m , minimum_RMSE: 444.95 , test_loss: 445.201111 , train_loss: 464.704681 , passed_time_accum: -1.000 m
+1691380242 model1691380242.pt 2023-08-07 12:50:42.446234 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.1
+, epoch:  4461 , passed_time: 1.000 m , minimum_RMSE: 0.22 , test_loss: 0.290777 , train_loss: 0.132262 , passed_time_accum: -2.086 m
+1691380307 model1691380307.pt 2023-08-07 12:51:47.471803 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.05
+, epoch:  4421 , passed_time: 1.000 m , minimum_RMSE: 66.18 , test_loss: 184.363922 , train_loss: 305.411102 , passed_time_accum: -3.170 m
+1691380372 model1691380372.pt 2023-08-07 12:52:52.441023 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.01
+, epoch:  4377 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.111693 , train_loss: 0.052421 , passed_time_accum: -4.252 m
+1691380437 model1691380437.pt 2023-08-07 12:53:57.725673 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.005
+, epoch:  4523 , passed_time: 1.000 m , minimum_RMSE: 0.01 , test_loss: 0.039438 , train_loss: 0.004942 , passed_time_accum: -5.340 m
+1691380502 model1691380502.pt 2023-08-07 12:55:02.752483 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.001
+, epoch:  4536 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.120687 , train_loss: 0.054577 , passed_time_accum: -6.424 m
+1691380567 model1691380567.pt 2023-08-07 12:56:07.920132 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.0005
+, epoch:  4665 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.227301 , train_loss: 0.013494 , passed_time_accum: -7.510 m
+1691380625 model1691380625.pt 2023-08-07 12:57:05.349203 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 0.0001
+, epoch:  4017 , passed_time: 0.871 m , minimum_RMSE: 0.01 , test_loss: 0.009503 , train_loss: 0.003032 , passed_time_accum: -8.468 m
+1691380690 model1691380690.pt 2023-08-07 12:58:10.639961 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 5e-05
+, epoch:  4552 , passed_time: 1.000 m , minimum_RMSE: 0.04 , test_loss: 0.038435 , train_loss: 0.013235 , passed_time_accum: -9.556 m
+1691380755 model1691380755.pt 2023-08-07 12:59:15.576498 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 1e-05
+, epoch:  4406 , passed_time: 1.000 m , minimum_RMSE: 15.03 , test_loss: 15.028481 , train_loss: 14.804901 , passed_time_accum: -10.638 m
+1691380820 model1691380820.pt 2023-08-07 13:00:20.398055 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 5e-06
+, epoch:  4544 , passed_time: 1.000 m , minimum_RMSE: 71.75 , test_loss: 71.751839 , train_loss: 79.729805 , passed_time_accum: -11.718 m
+1691380885 model1691380885.pt 2023-08-07 13:01:25.247796 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 1024 , learningRate: 1e-06
+, epoch:  4605 , passed_time: 1.000 m , minimum_RMSE: 304.47 , test_loss: 304.471130 , train_loss: 312.468964 , passed_time_accum: -12.799 m
+1691380949 model1691380949.pt 2023-08-07 13:02:29.784805 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.5
+, epoch:  5537 , passed_time: 1.000 m , minimum_RMSE: 204.58 , test_loss: 445.154541 , train_loss: 464.700195 , passed_time_accum: -13.875 m
+1691381014 model1691381014.pt 2023-08-07 13:03:34.849616 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.1
+, epoch:  5340 , passed_time: 1.000 m , minimum_RMSE: 0.17 , test_loss: 1.700910 , train_loss: 0.192347 , passed_time_accum: -14.959 m
+1691381079 model1691381079.pt 2023-08-07 13:04:39.961227 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.05
+, epoch:  5454 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.610037 , train_loss: 0.286556 , passed_time_accum: -16.044 m
+1691381144 model1691381144.pt 2023-08-07 13:05:44.997981 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.01
+, epoch:  5575 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.087502 , train_loss: 0.055859 , passed_time_accum: -17.128 m
+1691381210 model1691381210.pt 2023-08-07 13:06:50.232622 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.005
+, epoch:  5466 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.077791 , train_loss: 0.052913 , passed_time_accum: -18.216 m
+1691381275 model1691381275.pt 2023-08-07 13:07:55.494711 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.001
+, epoch:  5458 , passed_time: 1.000 m , minimum_RMSE: 0.03 , test_loss: 0.061923 , train_loss: 0.024908 , passed_time_accum: -19.303 m
+1691381340 model1691381340.pt 2023-08-07 13:09:00.494199 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.0005
+, epoch:  5185 , passed_time: 1.000 m , minimum_RMSE: 0.03 , test_loss: 0.036414 , train_loss: 0.006691 , passed_time_accum: -20.387 m
+1691381405 model1691381405.pt 2023-08-07 13:10:05.750342 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 0.0001
+, epoch:  5357 , passed_time: 1.000 m , minimum_RMSE: 0.03 , test_loss: 0.031907 , train_loss: 0.005445 , passed_time_accum: -21.474 m
+1691381470 model1691381470.pt 2023-08-07 13:11:10.961408 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 5e-05
+, epoch:  5290 , passed_time: 1.000 m , minimum_RMSE: 0.10 , test_loss: 0.097448 , train_loss: 0.007910 , passed_time_accum: -22.561 m
+1691381536 model1691381536.pt 2023-08-07 13:12:16.159098 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 1e-05
+, epoch:  5407 , passed_time: 1.000 m , minimum_RMSE: 27.86 , test_loss: 27.861494 , train_loss: 24.408031 , passed_time_accum: -23.648 m
+1691381600 model1691381600.pt 2023-08-07 13:13:20.712302 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 5e-06
+, epoch:  5324 , passed_time: 1.000 m , minimum_RMSE: 129.21 , test_loss: 129.208267 , train_loss: 130.117981 , passed_time_accum: -24.724 m
+1691381665 model1691381665.pt 2023-08-07 13:14:25.486748 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 2048 , learningRate: 1e-06
+, epoch:  5363 , passed_time: 1.000 m , minimum_RMSE: 376.58 , test_loss: 376.576660 , train_loss: 395.016174 , passed_time_accum: -25.803 m
+1691381730 model1691381730.pt 2023-08-07 13:15:30.027234 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.5
+, epoch:  6014 , passed_time: 1.000 m , minimum_RMSE: 234.88 , test_loss: 445.204285 , train_loss: 493.246552 , passed_time_accum: -26.879 m
+1691381795 model1691381795.pt 2023-08-07 13:16:35.273639 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.1
+, epoch:  5870 , passed_time: 1.000 m , minimum_RMSE: 0.15 , test_loss: 0.354505 , train_loss: 0.266074 , passed_time_accum: -27.966 m
+1691381860 model1691381860.pt 2023-08-07 13:17:40.516755 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.05
+, epoch:  6057 , passed_time: 1.000 m , minimum_RMSE: 0.06 , test_loss: 0.211027 , train_loss: 0.146948 , passed_time_accum: -29.054 m
+1691381925 model1691381925.pt 2023-08-07 13:18:45.766616 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.01
+, epoch:  5722 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.049249 , train_loss: 0.048284 , passed_time_accum: -30.141 m
+1691381990 model1691381990.pt 2023-08-07 13:19:50.791862 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.005
+, epoch:  5989 , passed_time: 1.000 m , minimum_RMSE: 0.03 , test_loss: 0.032851 , train_loss: 0.008750 , passed_time_accum: -31.225 m
+1691382056 model1691382056.pt 2023-08-07 13:20:56.020928 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.001
+, epoch:  5821 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.020428 , train_loss: 0.016012 , passed_time_accum: -32.312 m
+1691382121 model1691382121.pt 2023-08-07 13:22:01.299009 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.0005
+, epoch:  5989 , passed_time: 1.000 m , minimum_RMSE: 0.01 , test_loss: 0.042973 , train_loss: 0.030423 , passed_time_accum: -33.400 m
+1691382186 model1691382186.pt 2023-08-07 13:23:06.724296 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 0.0001
+, epoch:  5776 , passed_time: 1.000 m , minimum_RMSE: 0.05 , test_loss: 0.050307 , train_loss: 0.024861 , passed_time_accum: -34.490 m
+1691382251 model1691382251.pt 2023-08-07 13:24:11.665800 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 5e-05
+, epoch:  5819 , passed_time: 1.000 m , minimum_RMSE: 0.69 , test_loss: 0.694193 , train_loss: 0.763858 , passed_time_accum: -35.573 m
+1691382316 model1691382316.pt 2023-08-07 13:25:16.623897 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 1e-05
+, epoch:  5781 , passed_time: 1.000 m , minimum_RMSE: 77.78 , test_loss: 77.778801 , train_loss: 89.625160 , passed_time_accum: -36.655 m
+1691382381 model1691382381.pt 2023-08-07 13:26:21.490127 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 5e-06
+, epoch:  5665 , passed_time: 1.000 m , minimum_RMSE: 193.48 , test_loss: 193.480972 , train_loss: 214.958481 , passed_time_accum: -37.737 m
+1691382446 model1691382446.pt 2023-08-07 13:27:26.107836 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 4096 , learningRate: 1e-06
+, epoch:  5890 , passed_time: 1.000 m , minimum_RMSE: 429.16 , test_loss: 429.160736 , train_loss: 479.802002 , passed_time_accum: -38.814 m
+1691382511 model1691382511.pt 2023-08-07 13:28:31.261561 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.5
+, epoch:  3315 , passed_time: 1.000 m , minimum_RMSE: 277.65 , test_loss: 445.247131 , train_loss: 304.056854 , passed_time_accum: -39.899 m
+1691382576 model1691382576.pt 2023-08-07 13:29:36.061191 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.1
+, epoch:  3454 , passed_time: 1.000 m , minimum_RMSE: 1.00 , test_loss: 2.880413 , train_loss: 3.652844 , passed_time_accum: -40.979 m
+1691382640 model1691382640.pt 2023-08-07 13:30:40.903017 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.05
+, epoch:  3287 , passed_time: 1.000 m , minimum_RMSE: 0.15 , test_loss: 0.753709 , train_loss: 0.723556 , passed_time_accum: -42.060 m
+1691382705 model1691382705.pt 2023-08-07 13:31:45.967169 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.01
+, epoch:  3432 , passed_time: 1.000 m , minimum_RMSE: 0.11 , test_loss: 0.228852 , train_loss: 0.043643 , passed_time_accum: -43.144 m
+1691382771 model1691382771.pt 2023-08-07 13:32:51.134778 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.005
+, epoch:  3437 , passed_time: 1.000 m , minimum_RMSE: 0.05 , test_loss: 0.092532 , train_loss: 0.028946 , passed_time_accum: -44.231 m
+1691382836 model1691382836.pt 2023-08-07 13:33:56.128845 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.001
+, epoch:  3426 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.076770 , train_loss: 0.056180 , passed_time_accum: -45.314 m
+1691382901 model1691382901.pt 2023-08-07 13:35:01.386226 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.0005
+, epoch:  3359 , passed_time: 1.000 m , minimum_RMSE: 0.03 , test_loss: 0.039241 , train_loss: 0.009066 , passed_time_accum: -46.401 m
+1691382966 model1691382966.pt 2023-08-07 13:36:06.588628 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 0.0001
+, epoch:  3452 , passed_time: 1.000 m , minimum_RMSE: 0.01 , test_loss: 0.018725 , train_loss: 0.004805 , passed_time_accum: -47.488 m
+1691383031 model1691383031.pt 2023-08-07 13:37:11.827141 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 5e-05
+, epoch:  3343 , passed_time: 1.000 m , minimum_RMSE: 0.01 , test_loss: 0.019322 , train_loss: 0.010489 , passed_time_accum: -48.575 m
+1691383096 model1691383096.pt 2023-08-07 13:38:16.812606 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 1e-05
+, epoch:  3368 , passed_time: 1.000 m , minimum_RMSE: 15.16 , test_loss: 15.161874 , train_loss: 3.005375 , passed_time_accum: -49.659 m
+1691383161 model1691383161.pt 2023-08-07 13:39:21.668119 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 5e-06
+, epoch:  3352 , passed_time: 1.000 m , minimum_RMSE: 45.33 , test_loss: 45.329342 , train_loss: 27.727789 , passed_time_accum: -50.740 m
+1691383226 model1691383226.pt 2023-08-07 13:40:26.449809 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 512 , learningRate: 1e-06
+, epoch:  3205 , passed_time: 1.000 m , minimum_RMSE: 284.55 , test_loss: 284.553528 , train_loss: 171.538376 , passed_time_accum: -51.819 m
+1691383291 model1691383291.pt 2023-08-07 13:41:31.026618 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.5
+, epoch:  2288 , passed_time: 1.001 m , minimum_RMSE: 354.83 , test_loss: 445.276825 , train_loss: 202.470352 , passed_time_accum: -52.895 m
+1691383355 model1691383355.pt 2023-08-07 13:42:35.890349 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.1
+, epoch:  2242 , passed_time: 1.000 m , minimum_RMSE: 8.49 , test_loss: 278.412384 , train_loss: 135.914719 , passed_time_accum: -53.977 m
+1691383420 model1691383420.pt 2023-08-07 13:43:40.504741 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.05
+, epoch:  2310 , passed_time: 1.000 m , minimum_RMSE: 0.62 , test_loss: 2.118610 , train_loss: 1.430437 , passed_time_accum: -55.053 m
+1691383485 model1691383485.pt 2023-08-07 13:44:45.458444 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.01
+, epoch:  2232 , passed_time: 1.000 m , minimum_RMSE: 0.13 , test_loss: 0.137443 , train_loss: 0.049557 , passed_time_accum: -56.136 m
+1691383550 model1691383550.pt 2023-08-07 13:45:50.489129 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.005
+, epoch:  2283 , passed_time: 1.000 m , minimum_RMSE: 0.07 , test_loss: 0.094794 , train_loss: 0.025614 , passed_time_accum: -57.220 m
+1691383615 model1691383615.pt 2023-08-07 13:46:55.357047 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.001
+, epoch:  2270 , passed_time: 1.000 m , minimum_RMSE: 0.05 , test_loss: 0.096890 , train_loss: 0.008335 , passed_time_accum: -58.301 m
+1691383680 model1691383680.pt 2023-08-07 13:48:00.475311 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.0005
+, epoch:  2287 , passed_time: 1.000 m , minimum_RMSE: 0.04 , test_loss: 0.145688 , train_loss: 0.060761 , passed_time_accum: -59.386 m
+1691383745 model1691383745.pt 2023-08-07 13:49:05.741454 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 0.0001
+, epoch:  2236 , passed_time: 1.000 m , minimum_RMSE: 0.08 , test_loss: 0.101089 , train_loss: 0.010587 , passed_time_accum: -60.474 m
+1691383810 model1691383810.pt 2023-08-07 13:50:10.946819 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 5e-05
+, epoch:  2227 , passed_time: 1.000 m , minimum_RMSE: 0.02 , test_loss: 0.026566 , train_loss: 0.009788 , passed_time_accum: -61.561 m
+1691383875 model1691383875.pt 2023-08-07 13:51:15.895496 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 1e-05
+, epoch:  2253 , passed_time: 1.000 m , minimum_RMSE: 12.04 , test_loss: 12.036254 , train_loss: 0.267067 , passed_time_accum: -62.643 m
+1691383940 model1691383940.pt 2023-08-07 13:52:20.762912 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 5e-06
+, epoch:  2248 , passed_time: 1.001 m , minimum_RMSE: 34.00 , test_loss: 33.996624 , train_loss: 10.795494 , passed_time_accum: -63.724 m
+1691384005 model1691384005.pt 2023-08-07 13:53:25.636662 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 256 , learningRate: 1e-06
+, epoch:  2226 , passed_time: 1.000 m , minimum_RMSE: 255.39 , test_loss: 255.385513 , train_loss: 76.126114 , passed_time_accum: -64.806 m
+1691384070 model1691384070.pt 2023-08-07 13:54:30.176865 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.5
+, epoch:  1401 , passed_time: 1.000 m , minimum_RMSE: 333.83 , test_loss: 445.642303 , train_loss: 203.303619 , passed_time_accum: -65.881 m
+1691384135 model1691384135.pt 2023-08-07 13:55:35.135091 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.1
+, epoch:  1402 , passed_time: 1.000 m , minimum_RMSE: 2.06 , test_loss: 10.377053 , train_loss: 9.681519 , passed_time_accum: -66.964 m
+1691384200 model1691384200.pt 2023-08-07 13:56:40.057282 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.05
+, epoch:  1378 , passed_time: 1.000 m , minimum_RMSE: 1.47 , test_loss: 2.550066 , train_loss: 0.957877 , passed_time_accum: -68.046 m
+1691384264 model1691384264.pt 2023-08-07 13:57:44.867435 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.01
+, epoch:  1380 , passed_time: 1.001 m , minimum_RMSE: 0.13 , test_loss: 0.586448 , train_loss: 0.221230 , passed_time_accum: -69.126 m
+1691384329 model1691384329.pt 2023-08-07 13:58:49.983900 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.005
+, epoch:  1365 , passed_time: 1.000 m , minimum_RMSE: 0.08 , test_loss: 0.280489 , train_loss: 0.143787 , passed_time_accum: -70.211 m
+1691384395 model1691384395.pt 2023-08-07 13:59:55.095570 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.001
+, epoch:  1390 , passed_time: 1.000 m , minimum_RMSE: 0.03 , test_loss: 0.119767 , train_loss: 0.078930 , passed_time_accum: -71.297 m
+1691384460 model1691384460.pt 2023-08-07 14:01:00.307550 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.0005
+, epoch:  1373 , passed_time: 1.000 m , minimum_RMSE: 0.04 , test_loss: 0.089763 , train_loss: 0.050954 , passed_time_accum: -72.383 m
+1691384525 model1691384525.pt 2023-08-07 14:02:05.516849 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 0.0001
+, epoch:  1407 , passed_time: 1.001 m , minimum_RMSE: 0.09 , test_loss: 0.112311 , train_loss: 0.077389 , passed_time_accum: -73.470 m
+1691384590 model1691384590.pt 2023-08-07 14:03:10.600394 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 5e-05
+, epoch:  1337 , passed_time: 1.001 m , minimum_RMSE: 0.09 , test_loss: 0.086816 , train_loss: 0.050658 , passed_time_accum: -74.555 m
+1691384655 model1691384655.pt 2023-08-07 14:04:15.551948 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 1e-05
+, epoch:  1382 , passed_time: 1.001 m , minimum_RMSE: 6.36 , test_loss: 6.365101 , train_loss: 0.220866 , passed_time_accum: -75.638 m
+1691384720 model1691384720.pt 2023-08-07 14:05:20.507532 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 5e-06
+, epoch:  1376 , passed_time: 1.000 m , minimum_RMSE: 32.39 , test_loss: 32.387814 , train_loss: 16.251003 , passed_time_accum: -76.720 m
+1691384785 model1691384785.pt 2023-08-07 14:06:25.269656 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 128 , learningRate: 1e-06
+, epoch:  1393 , passed_time: 1.000 m , minimum_RMSE: 246.70 , test_loss: 246.700500 , train_loss: 71.579781 , passed_time_accum: -77.800 m
+1691384849 model1691384849.pt 2023-08-07 14:07:29.924248 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.5
+, epoch:   763 , passed_time: 1.001 m , minimum_RMSE: 444.96 , test_loss: 445.607880 , train_loss: 226.054001 , passed_time_accum: -78.877 m
+1691384914 model1691384914.pt 2023-08-07 14:08:34.998244 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.1
+, epoch:   762 , passed_time: 1.000 m , minimum_RMSE: 127.90 , test_loss: 445.308990 , train_loss: 224.181656 , passed_time_accum: -79.962 m
+1691384979 model1691384979.pt 2023-08-07 14:09:39.896889 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.05
+, epoch:   744 , passed_time: 1.001 m , minimum_RMSE: 2.24 , test_loss: 5.334649 , train_loss: 3.091167 , passed_time_accum: -81.043 m
+1691385044 model1691385044.pt 2023-08-07 14:10:44.634026 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.01
+, epoch:   719 , passed_time: 1.001 m , minimum_RMSE: 0.30 , test_loss: 1.032961 , train_loss: 0.158816 , passed_time_accum: -82.122 m
+1691385109 model1691385109.pt 2023-08-07 14:11:49.926910 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.005
+, epoch:   677 , passed_time: 1.001 m , minimum_RMSE: 0.15 , test_loss: 0.988307 , train_loss: 0.916574 , passed_time_accum: -83.210 m
+1691385175 model1691385175.pt 2023-08-07 14:12:55.096900 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.001
+, epoch:   772 , passed_time: 1.001 m , minimum_RMSE: 0.04 , test_loss: 0.079270 , train_loss: 0.040483 , passed_time_accum: -84.297 m
+1691385240 model1691385240.pt 2023-08-07 14:14:00.283437 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.0005
+, epoch:   778 , passed_time: 1.001 m , minimum_RMSE: 0.03 , test_loss: 0.026875 , train_loss: 0.005685 , passed_time_accum: -85.383 m
+1691385305 model1691385305.pt 2023-08-07 14:15:05.522394 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 0.0001
+, epoch:   760 , passed_time: 1.001 m , minimum_RMSE: 0.17 , test_loss: 0.240029 , train_loss: 0.085419 , passed_time_accum: -86.470 m
+1691385370 model1691385370.pt 2023-08-07 14:16:10.713878 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 5e-05
+, epoch:   783 , passed_time: 1.001 m , minimum_RMSE: 0.13 , test_loss: 0.127699 , train_loss: 0.094694 , passed_time_accum: -87.557 m
+1691385435 model1691385435.pt 2023-08-07 14:17:15.720633 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 1e-05
+, epoch:   770 , passed_time: 1.001 m , minimum_RMSE: 14.80 , test_loss: 14.803587 , train_loss: 0.897294 , passed_time_accum: -88.640 m
+1691385500 model1691385500.pt 2023-08-07 14:18:20.705719 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 5e-06
+, epoch:   775 , passed_time: 1.001 m , minimum_RMSE: 48.04 , test_loss: 48.036827 , train_loss: 54.619938 , passed_time_accum: -89.723 m
+1691385565 model1691385565.pt 2023-08-07 14:19:25.527535 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 64 , learningRate: 1e-06
+, epoch:   769 , passed_time: 1.000 m , minimum_RMSE: 244.21 , test_loss: 244.210236 , train_loss: 37.878731 , passed_time_accum: -90.804 m
+1691385630 model1691385630.pt 2023-08-07 14:20:30.210065 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.5
+, epoch:   400 , passed_time: 1.000 m , minimum_RMSE: 444.95 , test_loss: 444.959076 , train_loss: 221.243103 , passed_time_accum: -91.882 m
+1691385695 model1691385695.pt 2023-08-07 14:21:35.217536 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.1
+, epoch:   397 , passed_time: 1.000 m , minimum_RMSE: 105.98 , test_loss: 445.376343 , train_loss: 224.486267 , passed_time_accum: -92.965 m
+1691385760 model1691385760.pt 2023-08-07 14:22:40.173529 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.05
+, epoch:   403 , passed_time: 1.001 m , minimum_RMSE: 185.97 , test_loss: 186.619583 , train_loss: 216.292358 , passed_time_accum: -94.048 m
+1691385824 model1691385824.pt 2023-08-07 14:23:44.934741 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.01
+, epoch:   402 , passed_time: 1.002 m , minimum_RMSE: 0.79 , test_loss: 8.002028 , train_loss: 16.380384 , passed_time_accum: -95.127 m
+1691385889 model1691385889.pt 2023-08-07 14:24:50.001567 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.005
+, epoch:   408 , passed_time: 1.000 m , minimum_RMSE: 0.88 , test_loss: 3.187950 , train_loss: 1.511105 , passed_time_accum: -96.212 m
+1691385955 model1691385955.pt 2023-08-07 14:25:55.137539 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.001
+, epoch:   401 , passed_time: 1.002 m , minimum_RMSE: 0.09 , test_loss: 0.868864 , train_loss: 0.286651 , passed_time_accum: -97.297 m
+1691386020 model1691386020.pt 2023-08-07 14:27:00.120924 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.0005
+, epoch:   410 , passed_time: 1.001 m , minimum_RMSE: 0.15 , test_loss: 0.475432 , train_loss: 0.067958 , passed_time_accum: -98.380 m
+1691386085 model1691386085.pt 2023-08-07 14:28:05.253383 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 0.0001
+, epoch:   398 , passed_time: 1.002 m , minimum_RMSE: 0.14 , test_loss: 0.208773 , train_loss: 0.358137 , passed_time_accum: -99.466 m
+1691386150 model1691386150.pt 2023-08-07 14:29:10.445019 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 5e-05
+, epoch:   406 , passed_time: 1.001 m , minimum_RMSE: 0.20 , test_loss: 0.202426 , train_loss: 0.012788 , passed_time_accum: -100.552 m
+1691386215 model1691386215.pt 2023-08-07 14:30:15.547321 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 1e-05
+, epoch:   399 , passed_time: 1.002 m , minimum_RMSE: 20.99 , test_loss: 20.986582 , train_loss: 5.238642 , passed_time_accum: -101.637 m
+1691386280 model1691386280.pt 2023-08-07 14:31:20.426392 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 5e-06
+, epoch:   409 , passed_time: 1.001 m , minimum_RMSE: 74.08 , test_loss: 74.075813 , train_loss: 58.716908 , passed_time_accum: -102.719 m
+1691386345 model1691386345.pt 2023-08-07 14:32:25.570553 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 32 , learningRate: 1e-06
+, epoch:   409 , passed_time: 1.000 m , minimum_RMSE: 262.29 , test_loss: 262.286987 , train_loss: 52.274021 , passed_time_accum: -103.805 m
+1691386410 model1691386410.pt 2023-08-07 14:33:30.170563 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.5
+, epoch:   205 , passed_time: 1.000 m , minimum_RMSE: 426.30 , test_loss: 444.960510 , train_loss: 34.368378 , passed_time_accum: -104.881 m
+1691386475 model1691386475.pt 2023-08-07 14:34:35.280799 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.1
+, epoch:   208 , passed_time: 1.004 m , minimum_RMSE: 444.96 , test_loss: 445.274261 , train_loss: 38.979271 , passed_time_accum: -105.966 m
+1691386540 model1691386540.pt 2023-08-07 14:35:40.554395 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.05
+, epoch:   206 , passed_time: 1.005 m , minimum_RMSE: 212.26 , test_loss: 445.280640 , train_loss: 38.950409 , passed_time_accum: -107.054 m
+1691386605 model1691386605.pt 2023-08-07 14:36:45.134733 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.01
+, epoch:   210 , passed_time: 1.001 m , minimum_RMSE: 2.35 , test_loss: 2.769560 , train_loss: 0.770902 , passed_time_accum: -108.131 m
+1691386669 model1691386669.pt 2023-08-07 14:37:49.873887 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.005
+, epoch:   207 , passed_time: 1.000 m , minimum_RMSE: 0.62 , test_loss: 0.873667 , train_loss: 1.003727 , passed_time_accum: -109.210 m
+1691386734 model1691386734.pt 2023-08-07 14:38:54.689326 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.001
+, epoch:   212 , passed_time: 1.002 m , minimum_RMSE: 0.11 , test_loss: 1.103526 , train_loss: 0.009642 , passed_time_accum: -110.290 m
+1691386799 model1691386799.pt 2023-08-07 14:39:59.764349 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.0005
+, epoch:   208 , passed_time: 1.001 m , minimum_RMSE: 0.09 , test_loss: 1.538890 , train_loss: 0.031001 , passed_time_accum: -111.374 m
+1691386865 model1691386865.pt 2023-08-07 14:41:05.241660 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 0.0001
+, epoch:   215 , passed_time: 1.003 m , minimum_RMSE: 0.17 , test_loss: 0.187111 , train_loss: 0.040791 , passed_time_accum: -112.466 m
+1691386930 model1691386930.pt 2023-08-07 14:42:10.446464 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 5e-05
+, epoch:   209 , passed_time: 1.004 m , minimum_RMSE: 2.33 , test_loss: 2.325879 , train_loss: 0.058342 , passed_time_accum: -113.552 m
+1691386995 model1691386995.pt 2023-08-07 14:43:15.184991 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-05
+, epoch:   214 , passed_time: 1.000 m , minimum_RMSE: 28.35 , test_loss: 28.348446 , train_loss: 0.158976 , passed_time_accum: -114.631 m
+1691387059 model1691387059.pt 2023-08-07 14:44:19.996159 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 5e-06
+, epoch:   208 , passed_time: 1.002 m , minimum_RMSE: 102.66 , test_loss: 102.656708 , train_loss: 0.146870 , passed_time_accum: -115.712 m
+1691387124 model1691387124.pt 2023-08-07 14:45:24.939277 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 16 , learningRate: 1e-06
+, epoch:   217 , passed_time: 1.004 m , minimum_RMSE: 281.51 , test_loss: 281.506348 , train_loss: 27.269854 , passed_time_accum: -116.794 m
+1691387189 model1691387189.pt 2023-08-07 14:46:29.814783 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.5
+, epoch:   104 , passed_time: 1.002 m , minimum_RMSE: 444.99 , test_loss: 444.999176 , train_loss: 35.565399 , passed_time_accum: -117.875 m
+1691387255 model1691387255.pt 2023-08-07 14:47:35.023695 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.1
+, epoch:   104 , passed_time: 1.003 m , minimum_RMSE: 445.12 , test_loss: 445.175781 , train_loss: 37.942207 , passed_time_accum: -118.962 m
+1691387320 model1691387320.pt 2023-08-07 14:48:40.455496 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.05
+, epoch:   104 , passed_time: 1.008 m , minimum_RMSE: 150.87 , test_loss: 333.848175 , train_loss: 21.108141 , passed_time_accum: -120.053 m
+1691387385 model1691387385.pt 2023-08-07 14:49:45.625141 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.01
+, epoch:   104 , passed_time: 1.001 m , minimum_RMSE: 3.93 , test_loss: 3.925059 , train_loss: 0.693969 , passed_time_accum: -121.139 m
+1691387450 model1691387450.pt 2023-08-07 14:50:50.976786 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.005
+, epoch:   103 , passed_time: 1.006 m , minimum_RMSE: 1.33 , test_loss: 2.567379 , train_loss: 0.907408 , passed_time_accum: -122.228 m
+1691387515 model1691387515.pt 2023-08-07 14:51:55.838383 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.001
+, epoch:   106 , passed_time: 1.004 m , minimum_RMSE: 0.57 , test_loss: 0.646802 , train_loss: 0.019364 , passed_time_accum: -123.309 m
+1691387581 model1691387581.pt 2023-08-07 14:53:01.274051 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.0005
+, epoch:   109 , passed_time: 1.007 m , minimum_RMSE: 0.83 , test_loss: 0.899189 , train_loss: 0.014779 , passed_time_accum: -124.400 m
+1691387646 model1691387646.pt 2023-08-07 14:54:06.277492 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 0.0001
+, epoch:   105 , passed_time: 1.000 m , minimum_RMSE: 1.56 , test_loss: 1.555064 , train_loss: 0.015908 , passed_time_accum: -125.483 m
+1691387711 model1691387711.pt 2023-08-07 14:55:11.387209 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 5e-05
+, epoch:   109 , passed_time: 1.006 m , minimum_RMSE: 1.88 , test_loss: 1.878468 , train_loss: 0.004237 , passed_time_accum: -126.568 m
+1691387776 model1691387776.pt 2023-08-07 14:56:16.848067 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 1e-05
+, epoch:   107 , passed_time: 1.009 m , minimum_RMSE: 59.95 , test_loss: 59.949692 , train_loss: 0.063461 , passed_time_accum: -127.659 m
+1691387842 model1691387842.pt 2023-08-07 14:57:22.108528 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 5e-06
+, epoch:   109 , passed_time: 1.005 m , minimum_RMSE: 139.73 , test_loss: 139.728668 , train_loss: 0.520967 , passed_time_accum: -128.747 m
+1691387907 model1691387907.pt 2023-08-07 14:58:27.076678 data: ../data/KEdataX_N_10000_Interval_10_1691050560.pt
+, layer_dim_list: [2, 100, 100, 100, 1] activateion: ReLU , optimizer: Adam , n_of_data: 10000 , Bsize: 8 , learningRate: 1e-06
+, epoch:   103 , passed_time: 1.006 m , minimum_RMSE: 300.65 , test_loss: 300.645996 , train_loss: 19.487171 , passed_time_accum: -129.830 m
